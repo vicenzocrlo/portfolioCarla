@@ -1,5 +1,5 @@
 /* =======================CONTEÚDO DO SITE ============================= */
-export const IMAGENS = { coracao:"img/coracao.jpg", menina:"img/menina.jpg", menino:"img/menino.jpg", carla:"img/carla.png", sobre:"img/sobremim.jpeg", terapia:"img/terapia2.0.jpeg", olhar:"img/olhar.jpeg" };
+export const IMAGENS = { coracao:"img/coracao.jpg", menina:"img/menina.jpg", menino:"img/menino.jpg", carla:"img/carla.png", sobre:"img/sobremim.jpeg", terapia:"img/terapia2.0.jpeg", olhar:"img/olhar.jpeg", circulos:"img/circulos.jpeg", organizacoes:"img/organizacao.jpeg" };
 
 export const CONTATO = {
   whatsapp:"5511985093447", telefone:"(11) 98509-3447",
@@ -144,7 +144,8 @@ export const PAGINAS = [
 ]},
 
 /* ===================== CÍRCULOS E EXPERIÊNCIAS ===================== */
-{ id:"circulos", menu:"Círculos e Experiências", titulo:"Experiências para parar escutar e voltar a si", blocos:[
+{ id:"circulos", menu:"Círculos e Experiências", titulo:"Experiências para parar escutar e voltar a si", imagem:"circulos",
+  blocos:[
   ["p","Além do acompanhamento individual, desenvolvo experiências conduzidas em torno de temas relacionados ao autoconhecimento, à reflexão, à escuta e à conexão."],
   ["p","São encontros estruturados, com começo, meio e fim, pensados para criar um espaço diferente da rotina."],
   ["p","Não são uma roda de conversa solta. Não são cursos. Não são terapia em grupo."],
@@ -174,8 +175,9 @@ export const PAGINAS = [
   ["btn",[["Quero participar", wa("Olá, Carla! Tenho interesse nos Círculos e Experiências.")]]]
 ]},
 
-/* ========================== PARA ORGANIZAÇÕES ========================== */
-{ id:"organizacoes", menu:"Organizações", titulo:"Pessoas, relações e desenvolvimento", blocos:[
+/* ==========================  ORGANIZAÇÕES ========================== */
+{ id:"organizacoes", menu:"Organizações", titulo:"Pessoas, relações e desenvolvimento", imagem:"organizacoes",
+  blocos:[
   ["p","Minha trajetória profissional foi construída também dentro das organizações."],
   ["p","Ao longo dela, tive a oportunidade de liderar pessoas, acompanhar equipes, conduzir projetos, transformar processos e trabalhar com diferentes organizações e contextos."],
   ["p","Essa experiência permanece presente no meu trabalho com empresas."],
